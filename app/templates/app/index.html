@@ -1,0 +1,94 @@
+{% load static %}
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="{% static '/css/materialize.min.css' %}">
+    <link rel="stylesheet" href="{% static '/css/main.css' %}">
+    <!-- Fontawesome -->
+    <script src="https://kit.fontawesome.com/162ff428c2.js" crossorigin="anonymous"></script>
+
+    <title>{{ title }}</title>
+</head>
+<body>
+    <!-- Section: Header -->
+    <header class="main-header">
+        <nav class="transparent">
+            <div class="container">
+                <div class="nav-wrapper">
+                    <a href="#" class="brand-logo">Quazzu</a>
+                    <a href="" data-activates="mobile-nav" class="button-collapse">
+                        <i class="fa fa-bars"></i>
+                    </a>
+                    <ul class="right hide-on-med-down">
+                        <li><a class="active-link" href="{% url 'app:index' %}">Home</a></li>
+                        <li><a href="{% url 'app:solutions' %}">Solutions</a></li>
+                        <li><a href="{% url 'app:signup' %}">Sign Up</a></li>
+                        <li><a href="#" class="btn waves-effect waves-light purple white-text">Login</a></li>
+                        <li>
+                            <a href="https://facebook.com" target="_blank">
+                                <i class="fab fa-facebook"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://twitter.com" target="_blank">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://instagram.com" target="_blank">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                        </li>
+                    </ul>
+                    <!-- Sidenav -->
+                    <ul id="mobile-nav" class="side-nave">
+                        <h4 class="purple-text text-darken-4 center">
+                            Quazzu
+                        </h4>
+                        <li><div class="divider"></div></li>
+                        <li><a href="{% url 'app:index' %}"><i class="fa fa-home grey-text text-darken-4"></i>Home</a></li>
+                        <li><a href="{% url 'app:solutions' %}"><i class="fa fa-cog grey-text text-darken-4"></i>Solutions</a></li>
+                        <li><a href="{% url 'app:signup' %}"><i class="fa fa-users grey-text text-darken-4"></i>Sign Up</a></li>
+                        <li><div class="divider"></div></li>
+                        <li><a href="#" class="btn waves-effect waves-light purple">Login</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- Section: Showcase -->
+        <div class="showcase container">
+            <div class="row">
+                <div class="col s12 m10 offset-m1 center">
+                    <h5>Welcome to Quazzu</h5>
+                    <h1>Build For The Future</h1>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur atque impedit laborum,
+                        nulla perferendis veniam.
+                    </p>
+                    <br><br>
+                    <a href="{% url 'app:solutions' %}" class="btn btn-large white purple-text">Learn More</a>
+                    <a href="{% url 'app:signup' %}" class="btn btn-large purple white-text">Sign Up</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+    <!--Import jQuery before materialize.js-->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="{% static 'js/materialize.min.js' %}"></script>
+
+    <script>
+        $(document).ready(function () {
+
+        })
+    </script>
+</body>
+</html>
