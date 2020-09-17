@@ -18,3 +18,7 @@ L
 app/urls.py,1/7/17094f406fc95eb97e78158f5e7fa23521482136
 B
 quazu_site/urls.py,e/f/ef7d3b2b29f116590fe1f6dbf743b4b447a89045
+M
+app/templates/app/signup.html,4/5/45d7c823f9b3afebf94f4166efa2d4cc886521f8
+P
+ app/templates/app/solutions.html,7/9/7907819671858c853bd21dbbb4ca49aa25582bd3
