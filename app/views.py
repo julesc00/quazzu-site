@@ -5,7 +5,7 @@ from django.shortcuts import render
 
 def index(request):
     context = {
-        "title": "Quazu Site"
+        "title": "JDEVS.MX"
     }
     return render(request, "app/index.html", context)
 

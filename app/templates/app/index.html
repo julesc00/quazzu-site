@@ -22,7 +22,7 @@
         <nav class="transparent">
             <div class="container">
                 <div class="nav-wrapper">
-                    <a href="#" class="brand-logo">Quazzu</a>
+                    <a href="#" class="brand-logo">JDEVS</a>
                     <a href="" data-activates="mobile-nav" class="button-collapse">
                         <i class="fa fa-bars"></i>
                     </a>
@@ -30,7 +30,11 @@
                         <li><a class="active-link" href="{% url 'app:index' %}">Home</a></li>
                         <li><a href="{% url 'app:solutions' %}">Solutions</a></li>
                         <li><a href="{% url 'app:signup' %}">Sign Up</a></li>
-                        <li><a href="#" class="btn waves-effect waves-light purple white-text">Login</a></li>
+                        <li>
+                            <a href="#login-modal" class="btn waves-effect waves-light purple white-text modal-trigger">
+                                Login
+                            </a>
+                        </li>
                         <li>
                             <a href="https://facebook.com" target="_blank">
                                 <i class="fab fa-facebook"></i>
@@ -50,7 +54,7 @@
                     <!-- Sidenav -->
                     <ul id="mobile-nav" class="side-nave">
                         <h4 class="purple-text text-darken-4 center">
-                            Quazzu
+                            JDEVS
                         </h4>
                         <li><div class="divider"></div></li>
                         <li><a href="{% url 'app:index' %}"><i class="fa fa-home grey-text text-darken-4"></i>Home</a></li>
@@ -66,8 +70,8 @@
         <div class="showcase container">
             <div class="row">
                 <div class="col s12 m10 offset-m1 center">
-                    <h5>Welcome to Quazzu</h5>
-                    <h1>Build For The Future</h1>
+                    <h5>Welcome to JDEVS.MX</h5>
+                    <h1>Need an App or System</h1>
                     <p>
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur atque impedit laborum,
                         nulla perferendis veniam.
@@ -127,7 +131,7 @@
                     </p>
                 </div>
                 <div class="col s12 m6">
-                    <img src="{% static 'images/tech.jpg' %}" alt="" class="circle responsive-img">
+                    <img src="{% static 'images/renee.png' %}" alt="" class="circle responsive-img">
                 </div>
             </div>
         </div>
@@ -139,7 +143,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col s12 center">
-                        <h3>For Developers, by Developers</h3>
+                        <h3>We Develop What You Need</h3>
                     </div>
                 </div>
             </div>
@@ -208,7 +212,7 @@
                                 "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium aliquid
                                 aperiam atque deserunt dolore error excepturi fugit id, in labore, maxime molestiae
                                 numquam quasi soluta tenetur! Beatae laborum libero sequi!"
-                                <em>- John Dow from NASA</em>
+                                <p class="right"><em>- John Dow from NASA</em></p>
                             </p>
                             <div class="carousel-fixed-item center hide-on-small-and-down">
                                 <a href="" class="btn grey">Read More</a>
@@ -220,7 +224,7 @@
                                 "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium aliquid
                                 aperiam atque deserunt dolore error excepturi fugit id, in labore, maxime molestiae
                                 numquam quasi soluta tenetur! Beatae laborum libero sequi!"
-                                <em>- Linus Torvalds from The Linux Foundation</em>
+                                <p class="right"><em>- Linus Torvalds from The Linux Foundation</em></p>
                             </p>
                             <div class="carousel-fixed-item center hide-on-small-and-down">
                                 <a href="" class="btn grey">Read More</a>
@@ -232,7 +236,7 @@
                                 "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium aliquid
                                 aperiam atque deserunt dolore error excepturi fugit id, in labore, maxime molestiae
                                 numquam quasi soluta tenetur! Beatae laborum libero sequi!"
-                                <em>- Elon Musk from Tesla Inc.</em>
+                                <p class="right"><em>- Elon Musk from Tesla Inc.</em></p>
                             </p>
                             <div class="carousel-fixed-item center hide-on-small-and-down">
                                 <a href="" class="btn grey">Read More</a>
@@ -244,6 +248,61 @@
         </div>
     </section>
 
+    <!-- Section: Footer -->
+    <footer class="page-footer deep-purple lighten-1">
+          <div class="container">
+            <div class="row">
+              <div class="col l6 s12">
+                <h5 class="white-text">About Us</h5>
+                <p class="grey-text text-lighten-4">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt enim obcaecati ratione!
+                </p>
+              </div>
+              <div class="col l4 offset-l2 s12">
+                <h5 class="white-text">Links</h5>
+                <ul>
+                  <li><a class="grey-text text-lighten-3" href="home!">Home</a></li>
+                  <li><a class="grey-text text-lighten-3" href="{% url 'app:solutions' %}">Solutions</a></li>
+                  <li><a class="grey-text text-lighten-3" href="{% url 'app:signup' %}">Sign Up</a></li>
+                  <li><a class="grey-text text-lighten-3" href="#">Contact</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="footer-copyright deep-purple darken-1">
+            <div class="container">
+            JDEVS &copy; 2020
+            <a class="grey-text text-lighten-4 right" href="#!">Terms & Conditions</a>
+            </div>
+          </div>
+        </footer>
+
+
+    <!-- Login Modal -->
+    <div id="login-modal" class="modal">
+        <div class="modal-content">
+            <h4>Account Login</h4>
+            <p>Login to access your account Dashboard</p>
+            <form action="">
+                <div class="input-field">
+                    <input type="email" id="email">
+                    <label for="email">Email</label>
+                </div>
+                <div class="input-field">
+                    <input type="password" id="password">
+                    <label for="password">Password</label>
+                </div>
+            </form>
+        </div>
+        <div class="modal-footer">
+            <a href="#" class="modal-action modal-close btn grey">
+                <i class="fa fa-sync"></i>Reset Password
+            </a>
+            <a href="#" class="modal-action modal-close btn purple">
+                <i class="fa fa-lock"></i>Login
+            </a>
+        </div>
+    </div>
 
     <!--Import jQuery before materialize.js-->
     <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
@@ -253,6 +312,7 @@
         $(document).ready(function () {
             $('.carousel.carousel-slider').carousel({fullWidth: true});
             $('.button-collapse').sideNav();
+            $('.modal').modal();
         })
     </script>
 </body>
