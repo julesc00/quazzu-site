@@ -4,8 +4,7 @@
     <list default="true" id="a820dfd6-4833-4787-806b-387d8ad9223e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/9/1942e2f1f58bf48812cfe7acc44f786ecfb819f3" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/9/1942e2f1f58bf48812cfe7acc44f786ecfb819f3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/app/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/app/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/app/solutions.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/app/solutions.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/static/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/main.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -82,7 +81,8 @@
       <workItem from="1600368273888" duration="4143000" />
       <workItem from="1600388123327" duration="32000" />
       <workItem from="1600389305366" duration="6601000" />
-      <workItem from="1600428321312" duration="4089000" />
+      <workItem from="1600428321312" duration="4440000" />
+      <workItem from="1600453615202" duration="4391000" />
     </task>
     <servers />
   </component>
