@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a820dfd6-4833-4787-806b-387d8ad9223e" name="Default Changelist" comment="" />
+    <list default="true" id="a820dfd6-4833-4787-806b-387d8ad9223e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/9/1942e2f1f58bf48812cfe7acc44f786ecfb819f3" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/9/1942e2f1f58bf48812cfe7acc44f786ecfb819f3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/app/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/app/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/main.css" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -19,8 +24,12 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="JupyterTrust" id="ea578a25-f1e5-42f8-8f58-ccc5df7624f7" />
   <component name="ProjectId" id="1heLOuN6bAZkrzdjkEzVMH2o7XH" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -70,6 +79,8 @@
       <workItem from="1600366583979" duration="22000" />
       <workItem from="1600366612086" duration="1628000" />
       <workItem from="1600368273888" duration="4143000" />
+      <workItem from="1600388123327" duration="32000" />
+      <workItem from="1600389305366" duration="6529000" />
     </task>
     <servers />
   </component>
